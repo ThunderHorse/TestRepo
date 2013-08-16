@@ -1,5 +1,4 @@
-Usage: grep [OPTION]... PATTERN [FILE] ...
-Search for PATTERN in each FILE or standard input.
+for PATTERN in each FILE or standard input.
 Example: grep -i 'hello world' menu.h main.c
 
 Regexp selection and interpretation:
