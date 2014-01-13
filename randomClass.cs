@@ -4,14 +4,14 @@ namespace TestNamespace
 {
 	public class TestClass
 	{
-   		private string testString;
+   		private int testString;
 
-   		public void SetString(string testString)
+   		public void SetString(int testString)
    		{
    			this.testString = testString;
    		}
 
-   		public string GetString()
+   		public int GetString()
    		{
    			return this.testString;
    	}
