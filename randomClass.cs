@@ -4,14 +4,14 @@ namespace TestNamespace
 {
 	public class TestClass
 	{
-   		private string testString;
+   		private decimal testString;
 
-   		public void SetString(string testString)
+   		public void SetString(decimal testString)
    		{
    			this.testString = testString;
    		}
 
-   		public string GetString()
+   		public decimal GetString()
    		{
    			return this.testString;
    	}
